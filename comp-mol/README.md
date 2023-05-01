@@ -14,7 +14,7 @@ $$W = \int_{x_{1}}^{x_{2}} F(r) \ dr = (x_{2} - x_{1}) \langle F(\xi) \rangle_{\
 
 Where $\xi$ is a random number between $x_1$ (**equilibrium position**) and $x_2$ (**"infinity"**). Then, the Lennard-Jones potential is:
 
-$$U(r) = 4\varepsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right) ^6$$
+$$U(r) = 4\varepsilon \left[ \left( \frac{\sigma}{r} \right)^{12} - \left( \frac{\sigma}{r} \right)^6 \right]$$
 
 And the force:
 
@@ -24,7 +24,7 @@ Where $\varepsilon$ is an energy characteristic parameter and $\sigma$ is a dist
 
 ## Liquid Argon
 
-Through the Monte Carlo method, the average interaction energy in the argon liquid was estimated. The density of this liquid is typically $\text{1.394 g/cm}^3\text{,}$ which is equivalent to 100 atoms in a box of $L = 16.8192 \text{ Angstrom}$ side. For this, the x, y and z coordinates of each atom were generated randomly (using a uniform distribution), creating a configuration in which the potential between each atom is given by the Lennard-Jones potential U(r). Thus, the average energy will be the sum of all potentials divided by the number of atoms plus a kinetic part.
+Through the Monte Carlo method, the average interaction energy in the argon liquid was estimated. The density of this liquid is typically $\text{1.394 g/cm}^3\text{,}$ which is equivalent to 100 atoms in a box of $L = 16.8192$ Angstrom side. For this, the x, y and z coordinates of each atom were generated randomly (using a uniform distribution), creating a configuration in which the potential between each atom is given by the Lennard-Jones potential U(r). Thus, the average energy will be the sum of all potentials divided by the number of atoms plus a kinetic part.
 
 $$E_{media} = \frac{U_{total}}{N} + \frac{3}{2}k_{B}T$$
 
