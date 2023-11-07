@@ -22,7 +22,7 @@ $$F(r) = -\frac{\partial U(r)}{\partial r} = 24\varepsilon \left[ \left( \frac{\
 
 Where $\varepsilon$ is an energy characteristic parameter and $\sigma$ is a distance characteristic parameter. For argon, $\varepsilon = 0.2378 \text{ kcal/mol}$ and $\sigma = 3.41 \text{ Angstrom}$. Using the above equations, the work was calculated with a precision of 0.001\% compared to the exact work $W_{exact} = -\varepsilon$.
 
-### Liquid Argon
+## Liquid Argon
 
 Through the Monte Carlo method, the average interaction energy in the argon liquid was estimated. The density of this liquid is typically $\text{1.394 g/cm}^3\text{,}$ which is equivalent to 100 atoms in a box of $L = 16.8192$ Angstrom side. For this, the x, y and z coordinates of each atom were generated randomly (using a uniform distribution), creating a configuration in which the potential between each atom is given by the Lennard-Jones potential U(r). Thus, the average energy will be the sum of all potentials divided by the number of atoms plus a kinetic part.
 

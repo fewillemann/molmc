@@ -1,5 +1,4 @@
-"""This module defines two molecular Monte Carlo algorithms. Written as a programming exercise.
-Author: Felipe Reibnitz Willemann"""
+"""This module defines two molecular Monte Carlo algorithms. Written as a programming exercise by Felipe Reibnitz Willemann"""
 from typing import Tuple
 
 import numpy
@@ -15,8 +14,8 @@ class MonteCarlo1D:
             r_cut (float): equilibrium radius in Angstrom.
         """
         # interaction parameters
-        self.epsilon = epsilon  # 0.2378 kcal/mol
-        self.sigma = sigma  # 3.41 angstrom
+        self.epsilon = epsilon
+        self.sigma = sigma
         self.r_cut = r_cut
         self.r_eq = self.sigma * (2 ** (1 / 6))
 

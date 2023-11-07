@@ -1,0 +1,18 @@
+[project]
+name = "molmc
+version = "1.0.0"
+authors = [
+  { name="Felipe Reibnitz Willemann", email="felipe.reibnitz@estudiante.uam.es" },
+]
+description = "A small package of two simple molecular Monte Carlo calculations."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ["numpy >=1.15"]
+
+[project.urls]
+"Homepage" = "https://github.com/fewillemann/molmc"
