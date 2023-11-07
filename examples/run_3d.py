@@ -16,7 +16,8 @@ energy = np.array([simulator.calculate_energy(n_particles) for _ in range(n_step
 conv = sum(((energy > -2) & (energy < 0)) / n_steps)
 
 # plot results
-fig, ax = plt.subplots(figsize=(14, 6))
+fig, ax = plt.subplots(
+    figsize=(14, 6))
 log_bins = np.logspace(np.log10(min(energy)), np.log10(max(energy)), 20)
 ax.hist(energy, bins=[-0.2, 0] + list(log_bins), ec="black", color="tab:blue")
 ax.set_xscale("log")

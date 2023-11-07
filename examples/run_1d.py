@@ -1,10 +1,4 @@
 import matplotlib.pyplot as plt
-import sys
-import os
-
-sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/../src/molmc")
-#sys.path.append("../src/molmc")
-
 from molmc import MonteCarlo1D
 import numpy as np
 
@@ -62,4 +56,3 @@ ax[1].set_title(
 
 plt.tight_layout()
 plt.show()
-# plt.savefig("result_1d.png", dpi=300)
